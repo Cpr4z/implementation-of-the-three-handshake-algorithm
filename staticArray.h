@@ -38,7 +38,7 @@ public:
     int find(const T& val)//метод нахождения элемента и возвращении его индекса
     {
         for (int i = 0; i < count; i++)
-            if (array[i] == val)
+            if (array[i] == val)//если значение равно, нужному нам, то возвращаем индекс этого значения 
                 return i;
         return -1;
     }
